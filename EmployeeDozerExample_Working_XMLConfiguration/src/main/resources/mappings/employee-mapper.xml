@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net 
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+<configuration>
+  <date-format>MM/dd/yyyy HH:mm</date-format>
+ </configuration>
+	<mapping>
+		<class-a>com.lsn.domain.SourcePerson</class-a>
+		<class-b>com.lsn.domain.DestnationPerson</class-b>
+		<field>
+			<a>sname</a>
+			<b>dname</b>
+		</field>
+		<field>
+			<a>sfirstname</a>
+			<b>dfirstname</b>
+		</field>
+		<field>
+			<a>slastname</a>
+			<b>dlastname</b>
+		</field>
+		<field>
+			<a>spresntaddress</a>
+			<b>dperminentaddress</b>
+		</field>
+
+	</mapping>
+	<mapping>
+		<class-a>com.lsn.domain.SourceAddress</class-a>
+		<class-b>com.lsn.domain.DestnationAddress</class-b>
+		<field>
+			<a>sname</a>
+			<b>dname</b>
+		</field>
+		
+		<field>
+			<a>shno</a>
+			<b>dhno</b>
+		</field>
+		
+		<field>
+			<a>svillage</a>
+			<b>dvillage</b>
+		</field>
+		<field>
+			<a>sdist</a>
+			<b>ddist</b>
+		</field>
+		<field>
+			<a>sstate</a>
+			<b>dstate</b>
+		</field>
+		<!-- <field>
+			<a>szipcode</a>
+			<b>dzipcode</b>
+		</field> -->
+
+	</mapping>
+</mappings>
